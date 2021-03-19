@@ -15,8 +15,7 @@ User Stories: -When the user clicks start they will be brought to the selection 
               -The user will either win or lose based on if they can surivive and type till all of the lyrics are done.
   
   
- Wireframe:  
-  
+ Wireframe: ![Image of WireFrame](images\Project_1.jpg)
   
 MVP checklist: -Create a opening title screen
                -Create lives for the game.
