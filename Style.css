@@ -1,0 +1,95 @@
+.bigBox{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.gameBox{
+    border: 50px solid black;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallBox{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+#options{
+    width: 200px;
+    height: 600px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#timer{
+    width: 200px;
+    height: 600px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#text{
+    width: 400px;
+    height: 600px;
+    
+    
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    color: purple;
+    position:relative;
+    border: 8px solid black;
+    margin-bottom: -55px;
+}
+
+body{
+    background-color: grey;
+}
+
+#p{
+    color: darkred;
+    
+    
+}
+
+#p2{
+    color:red;
+    position: absolute;
+}
+
+.textBox{
+    margin: 0 auto;
+    margin-top: 5px;
+    max-width: 399px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+#bothSongs{
+    visibility: hidden;
+}
+
+.class{
+    
+}
