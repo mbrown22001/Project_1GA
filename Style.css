@@ -73,6 +73,11 @@ body{
     position: absolute;
 }
 
+#p3{
+    margin-top: 100px;
+    text-align: center;
+}
+
 .textBox{
     margin: 0 auto;
     margin-top: 5px;

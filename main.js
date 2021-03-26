@@ -5,7 +5,8 @@ i = 0;
 let instruMusic = document.getElementById('firstSong');
 let realMusic;
 // Song Lyrics
-let songOne = ['Mayday,' , 'Mayday' , 'The' , 'ship' , 'is' , 'slowly' , 'sinking' , 'They' , 'think' , 'Im' , 'crazy,' , 'they' , 'dont' , 'know' , 'the' , 'feeling' , 'Theyre' , 'all' , 'around' , 'me' , 'Circling' , 'like' , 'vultures' , 'They' , 'wanna' , 'break' , 'me' , 'and' , 'wash' , 'away' , 'my' , 'colors' , 'Take' , 'me' , 'high' , 'and' , 'Ill' , 'sing' , 'Oh' , 'you' , 'make' , 'everything' , 'okay' , 'We' , 'are' , 'one' , 'and' , 'the' , 'same' , 'Oh' , 'you' , 'take' , 'all' , 'of' , 'the' , 'pain' , 'away' , 'Save' , 'me' , 'if' , 'I' , 'become' , 'My' , 'demons' , '' ,]
+let songOne = ['Mayday,' , 'Mayday' , 'The' , 'ship' , 'is' , 'slowly' , 'sinking' , 'They' , 'think' , 'Im' , 'crazy,' , 'they' , 'dont' , 'know' , 'the' , 'feeling' , 'Theyre' , 'all' , 'around' , 'me' , 'Circling' , 'like' , 'vultures' , 'They' , 'wanna' , 'break' , 'me' , 'and' , 'wash' , 'away' , 'my' , 'colors' , 'Take' , 'me' , 'high' , 'and' , 'Ill' , 'sing' , 'Oh' , 'you' , 'make' , 'everything' , 'okay' , 'We' , 'are' , 'one' , 'and' , 'the' , 'same' , 'Oh' , 'you' , 'take' , 'all' , 'of' , 'the' , 'pain' , 'away' , 'Save' , 'me' , 'if' , 'I' , 'become' , 'My' , 'demons' ,]
+//let songOne = ['yay', 'boo']
 // Song Lyrics for the User to Input
 let songTwo = []
 
@@ -56,21 +57,24 @@ input.addEventListener("keyup", function(event){
             i++;
         }
 
-       // if(songOne.length = songTwo.length){
-       //     youWin();
-       // }
+        else if(songOne.length === songTwo.length){
+            youWin();
+        }
 
        // if(time = 0 &&  songOne.length != songTwo.length){
        //     youLose();
       //  }
 
         else (i > songOne.length);{
+        
            return;
             
         }
         
     }
     })
+
+
 //Keeps track of the in-game time. When the timer reaches 0 the player loses.
     const startingMinutes = 4;
     let time = (startingMinutes * 60)+1;
